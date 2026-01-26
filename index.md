@@ -52,3 +52,11 @@ For serious correspondence only:
 ---
 
 *I write about how power turns belief into obedience—and why resistance keeps returning.*
+---
+
+## Navigation
+
+- [Books](books.html)
+- [Essays](essays.html)
+- [Swahili](swahili.html)
+- [Contact](contact.html)
