@@ -1,5 +1,5 @@
 # Sado Faraji
-
+<img src="images/sado.jpg" alt="Sado Faraji" class="author-photo">
 Writer on power, belief, obedience, and resistance.
 
 ---
