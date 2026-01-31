@@ -2,7 +2,7 @@
 
 This repository contains the source code for my personal author website.
 
-🌍 Live site: https://sadofaraji.github.io
+🌍 Live site: https://sadofaraji.com
 
 ---
 
