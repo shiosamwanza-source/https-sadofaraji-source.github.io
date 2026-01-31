@@ -1,0 +1,39 @@
+/* Add this to your style.css file */
+
+/* Book Cover Placeholder Styling */
+.book-cover {
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(135deg, #1a2332 0%, #2c3e50 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.book-cover::before {
+    content: '📚';
+    font-size: 4rem;
+    position: absolute;
+    opacity: 0.3;
+}
+
+.book-cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Different colors for each book type */
+.book-card:nth-child(1) .book-cover {
+    background: linear-gradient(135deg, #8b3a3a 0%, #a64949 100%);
+}
+
+.book-card:nth-child(2) .book-cover {
+    background: linear-gradient(135deg, #1a2332 0%, #2c3e50 100%);
+}
+
+.book-card:nth-child(3) .book-cover {
+    background: linear-gradient(135deg, #c9a961 0%, #d4b56f 100%);
+}
