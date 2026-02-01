@@ -1,0 +1,32 @@
+# Site settings
+title: Sado Faraji
+description: Writer of Power, Memory, and Resistance
+url: "https://sadofaraji.com"
+baseurl: ""
+
+# Author information
+author:
+  name: Sado Faraji
+  email: your-email@example.com
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Collections
+collections:
+  posts:
+    output: true
+
+# Exclude files
+exclude:
+  - README.md
+  - LICENSE
+  - CNAME
+
+# Jekyll configuration
+permalink: /:year/:month/:day/:title/
+timezone: Africa/Nairobi
