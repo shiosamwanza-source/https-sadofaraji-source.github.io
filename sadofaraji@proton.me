@@ -1,0 +1,54 @@
+# Sado Faraji
+
+Writer on power, belief, obedience, and resistance.
+
+---
+
+## Manifesto: On Power, Memory, and Conscience
+
+I write because silence has a pattern.
+
+Across history, across continents, across belief systems, the same forces repeat themselves: authority demanding loyalty, belief reshaped into obedience, and memory rewritten to justify power. My work exists to interrupt that repetition—not with slogans, but with examination.
+
+I do not write to defend ideologies or to destroy them. I write to ask how they function, who they serve, and what they require from ordinary people in return.
+
+My fiction and non-fiction are not separate pursuits. They are different instruments playing the same question. Historical narratives, political analysis, love stories amid catastrophe, and examinations of religious authority all circle a single concern: what happens to human conscience when power presents itself as inevitable, sacred, or unquestionable.
+
+History is not distant. It is recursive.
+
+The genocide that turns neighbors into enemies, the empire that demands submission, the digital riot that almost dissolves a nation, the theological dispute that outlives its founders—these are not isolated events. They are variations of the same structure, reappearing whenever fear is rewarded and obedience is praised.
+
+Faith is not the enemy of reason. It is betrayed when reason is forbidden. Belief loses its dignity when conscience is outsourced to authority, and devotion becomes dangerous when it demands silence in the face of injustice.
+
+I do not believe power needs conspiracies to endure. It needs habits. It needs repetition. It needs narratives that turn provisional decisions into eternal truths and political arrangements into sacred orders.
+
+No system—political, religious, or cultural—deserves loyalty at the cost of conscience.
+
+I write so that memory resists erasure, belief survives without fear, and power is forced to explain itself.
+
+---
+
+## Selected Works
+
+### Memory & Resistance
+- *The Bridge of Hope and Sorrow*
+- *The Spirit of Resistance: The Legend of Mkwawa*
+
+### Power & Authority
+- *Blind Obedience: Empire, Theology, and the War on Liberation*
+- *Caliphate and the Foundations of Dispute*
+
+### The Present Moment
+- *Digital Insurrection*
+
+---
+
+## Contact
+
+For serious correspondence only:
+
+**Email:** yourname@proton.me
+
+---
+
+*I write about how power turns belief into obedience—and why resistance keeps returning.*
