@@ -3,255 +3,237 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Sado Faraji - Writer of historical fiction and non-fiction exploring power, belief, obedience, and resistance across history and the present.">
-    <meta name="keywords" content="Sado Faraji, author, historical fiction, political thought, resistance, power, authority">
-    <meta name="author" content="Sado Faraji">
-    <title>Sado Faraji - Writer of Power, Memory, and Resistance</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Sado Faraji - Author & Historian</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            background: linear-gradient(135deg, #1a1a2e, #16213e);
+            color: white;
+            line-height: 1.6;
+        }
+
+        .header {
+            text-align: center;
+            padding: 60px 20px;
+            background: rgba(0,0,0,0.3);
+        }
+
+        .header h1 {
+            font-size: 3.5rem;
+            color: #d4af37;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+
+        .header p {
+            font-size: 1.3rem;
+            color: #cccccc;
+            font-style: italic;
+        }
+
+        .book-gallery {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .gallery-title {
+            text-align: center;
+            font-size: 2.5rem;
+            color: #d4af37;
+            margin-bottom: 50px;
+        }
+
+        .book-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+
+        .book-item {
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 25px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+
+        .book-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+        }
+
+        .book-item img {
+            width: 100%;
+            max-width: 200px;
+            height: 280px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+        }
+
+        .book-item h3 {
+            font-size: 1.4rem;
+            color: #d4af37;
+            margin-bottom: 10px;
+        }
+
+        .book-item p {
+            color: #cccccc;
+            font-size: 1rem;
+            margin-bottom: 15px;
+        }
+
+        .book-category {
+            background: rgba(212,175,55,0.2);
+            color: #d4af37;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+
+        .author-section {
+            text-align: center;
+            padding: 60px 20px;
+            background: rgba(0,0,0,0.2);
+            margin-top: 60px;
+        }
+
+        .author-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 0 auto 30px;
+            border: 4px solid #d4af37;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 30px;
+            background: rgba(0,0,0,0.5);
+            margin-top: 40px;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2.5rem;
+            }
+            
+            .book-grid {
+                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                gap: 20px;
+            }
+        }
+    </style>
 </head>
 <body>
-    <!-- Navigation Header -->
-    <header class="site-header">
-        <nav class="nav-container">
-            <div class="logo">
-                <a href="index.html">Sado Faraji</a>
-            </div>
-            <ul class="nav-menu">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="books.html">Books</a></li>
-                <li><a href="essays.html">Essays</a></li>
-                <li><a href="swahili.html">Kiswahili</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-            <button class="mobile-menu-toggle" aria-label="Toggle menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-        </nav>
-    </header>
-
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-content">
-            <h1 class="hero-title">Sado Faraji</h1>
-            <p class="hero-tagline">Writer of Power, Memory, and Resistance</p>
-            <p class="hero-description">
-                Stories where power is questioned, memory refuses erasure, 
-                and resistance is born from conscience.
-            </p>
-            <div class="hero-cta">
-                <a href="books.html" class="btn btn-primary">Explore My Work</a>
-                <a href="essays.html" class="btn btn-secondary">Read Essays</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section class="about-section">
-        <div class="container">
-            <h2 class="section-title">About the Author</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>
-                        Sado Faraji writes stories where power is questioned, memory refuses erasure, 
-                        and resistance is born from conscience. His fiction blends political thought, 
-                        spiritual tension, and human struggle into narratives that explore what systems 
-                        demand — and what people are willing to give.
-                    </p>
-                    <p>
-                        From epic fantasy to historical resistance, his work lives at the intersection 
-                        of belief, authority, and the cost of freedom. His writing examines how authority 
-                        is legitimized, how conscience is disciplined, and why resistance continues to 
-                        re-emerge in moments of crisis.
-                    </p>
-                    <p class="about-statement">
-                        <em>"I write about how power turns belief into obedience—and why resistance keeps returning."</em>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Featured Books Section -->
-    <section class="featured-books">
-        <div class="container">
-            <h2 class="section-title">Featured Works</h2>
-            
-            <div class="books-grid">
-                <!-- Book 1 -->
-                <div class="book-gallery">
-    <h2>Books by Sado Faraji</h2>
-    
-    <div class="book-grid">
-        <div class="book-item">
-            <img src="images/THE-SPIRIT-OF-THE-R..." alt="Spirit of Resistance">
-            <h3>Spirit of Resistance</h3>
-            <p>The Story of Chief Mkwawa</p>
-        </div>
-        
-        <div class="book-item">
-            <img src="images/THE-BLIND-OBEDIEN..." alt="Blind Obedience">
-            <h3>The Blind Obedience</h3>
-            <p>Empire, Theology and Liberation</p>
-        </div>
-        
-        <div class="book-item">
-            <img src="images/Indelible-archive.jpg" alt="Indelible Archive">
-            <h3>The Indelible Archive</h3>
-            <p>When the Erased Refuse to Stay Silent</p>
-        </div>
-        
-        <!-- Ongeza vitabu vingine... -->
+    <!-- HEADER -->
+    <div class="header">
+        <h1>SADO FARAJI</h1>
+        <p>Author • Historian • Critical Thinker</p>
     </div>
-                </div>
-                
-                <div class="book-card">
-                    <div class="book-cover">
-                        <img src="images/bridge-hope-sorrow.jpg" alt="The Bridge of Hope and Sorrow book cover">
-                    </div>
-                    <div class="book-info">
-                        <h3 class="book-title">The Bridge of Hope and Sorrow</h3>
-                        <p class="book-category">Memory & Resistance</p>
-                        <p class="book-excerpt">
-                            A story of memory, loss, and the bridges we build between past and present.
-                        </p>
-                        <a href="books.html#bridge" class="book-link">Learn More →</a>
-                    </div>
-                </div>
 
-                <!-- Book 2 -->
-                <div class="book-card">
-                    <div class="book-cover">
-                        <img src="images/blind-obedience.jpg" alt="Blind Obedience book cover">
-                    </div>
-                    <div class="book-info">
-                        <h3 class="book-title">Blind Obedience</h3>
-                        <p class="book-category">Power & Authority</p>
-                        <p class="book-excerpt">
-                            Empire, Theology, and the War on Liberation—an examination of how power demands submission.
-                        </p>
-                        <a href="books.html#blind-obedience" class="book-link">Learn More →</a>
-                    </div>
-                </div>
-
-                <!-- Book 3 -->
-                <div class="book-card">
-                    <div class="book-cover">
-                        <img src="images/digital-insurrection.jpg" alt="Digital Insurrection book cover">
-                    </div>
-                    <div class="book-info">
-                        <h3 class="book-title">Digital Insurrection</h3>
-                        <p class="book-category">The Present Moment</p>
-                        <p class="book-excerpt">
-                            Resistance in the age of surveillance, algorithms, and digital control.
-                        </p>
-                        <a href="books.html#digital-insurrection" class="book-link">Learn More →</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="section-cta">
-                <a href="books.html" class="btn btn-outline">View All Books</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Latest Essays Section -->
-    <section class="latest-essays">
-        <div class="container">
-            <h2 class="section-title">Latest Essays</h2>
+    <!-- BOOK GALLERY -->
+    <div class="book-gallery">
+        <h2 class="gallery-title">Published Works</h2>
+        
+        <div class="book-grid">
             
-            <div class="essays-list">
-                <article class="essay-preview">
-                    <div class="essay-meta">
-                        <span class="essay-category">Political Thought</span>
-                        <span class="essay-date">January 2026</span>
-                    </div>
-                    <h3 class="essay-title">
-                        <a href="essays.html#architecture-obedience">The Architecture of Obedience</a>
-                    </h3>
-                    <p class="essay-excerpt">
-                        How institutions transform belief into compliance, and why questioning 
-                        authority remains a moral imperative...
-                    </p>
-                    <a href="essays.html#architecture-obedience" class="essay-link">Read More →</a>
-                </article>
-
-                <article class="essay-preview">
-                    <div class="essay-meta">
-                        <span class="essay-category">Historical Analysis</span>
-                        <span class="essay-date">December 2025</span>
-                    </div>
-                    <h3 class="essay-title">
-                        <a href="essays.html#memory-resistance">Memory as Resistance</a>
-                    </h3>
-                    <p class="essay-excerpt">
-                        When power seeks to erase the past, remembering becomes an act of defiance. 
-                        On the politics of historical memory...
-                    </p>
-                    <a href="essays.html#memory-resistance" class="essay-link">Read More →</a>
-                </article>
+            <!-- SPIRIT OF RESISTANCE -->
+            <div class="book-item">
+                <div class="book-category">Historical Biography</div>
+                <img src="images/THE-SPIRIT-OF-THE-R.jpg" alt="Spirit of Resistance">
+                <h3>Spirit of Resistance</h3>
+                <p>The untold story of Chief Mkwawa and the struggle against colonial oppression in East Africa.</p>
             </div>
 
-            <div class="section-cta">
-                <a href="essays.html" class="btn btn-outline">Read All Essays</a>
+            <!-- BLIND OBEDIENCE -->
+            <div class="book-item">
+                <div class="book-category">Religious Critique</div>
+                <img src="images/THE-BLIND-OBEDIEN.jpg" alt="The Blind Obedience">
+                <h3>The Blind Obedience</h3>
+                <p>Empire, Theology and the Path to Liberation - A critical examination of religious authority.</p>
             </div>
+
+            <!-- INDELIBLE ARCHIVE -->
+            <div class="book-item">
+                <div class="book-category">Literary Fiction</div>
+                <img src="images/Indelible-archive.jpg" alt="The Indelible Archive">
+                <h3>The Indelible Archive</h3>
+                <p>When the Erased Refuse to Stay Silent - A powerful narrative of memory and resistance.</p>
+            </div>
+
+            <!-- SHADOWS OF THE DESERT -->
+            <div class="book-item">
+                <div class="book-category">Middle East History</div>
+                <img src="images/shadows-of-the-desert.jpg" alt="Shadows of the Desert">
+                <h3>Shadows of the Desert</h3>
+                <p>The Role of Zionism in the Birth of Saudi Arabia - An investigative historical analysis.</p>
+            </div>
+
+            <!-- UMAR IBN AL-KHATTAB -->
+            <div class="book-item">
+                <div class="book-category">Islamic History</div>
+                <img src="images/CALIPHATE-AND-FOU.jpg" alt="Umar and the Fracture of Authority">
+                <h3>Umar Ibn Al-Khattab</h3>
+                <p>And the Fracture of Authority - Examining power dynamics in early Islamic civilization.</p>
+            </div>
+
+            <!-- MTEGO WA KAFARA -->
+            <div class="book-item">
+                <div class="book-category">Swahili Literature</div>
+                <img src="images/MTEGO-WA-KAFARA.jpg" alt="Mtego wa Kafara">
+                <h3>Mtego wa Kafara</h3>
+                <p>A compelling work of Swahili literature exploring themes of tradition and modernity.</p>
+            </div>
+
+            <!-- DIGITAL INSURRECTION -->
+            <div class="book-item">
+                <div class="book-category">Political Analysis</div>
+                <img src="images/Digital-insurrection-th.jpg" alt="Digital Insurrection">
+                <h3>Digital Insurrection</h3>
+                <p>Technology, Power and the Future of Democratic Resistance in the Digital Age.</p>
+            </div>
+
+            <!-- THE SEVEN LAWS -->
+            <div class="book-item">
+                <div class="book-category">Philosophy</div>
+                <img src="images/THE-SEVEN-LAWS-OF.jpg" alt="The Seven Laws">
+                <h3>The Seven Laws of...</h3>
+                <p>Foundational principles for understanding power, justice and human society.</p>
+            </div>
+
         </div>
-    </section>
+    </div>
 
-    <!-- Newsletter Section -->
-    <section class="newsletter-section">
-        <div class="container">
-            <div class="newsletter-content">
-                <h2 class="newsletter-title">Stay Connected</h2>
-                <p class="newsletter-description">
-                    Receive updates on new releases, essays, and reflections on power, 
-                    memory, and resistance.
-                </p>
-                <form class="newsletter-form" action="#" method="post">
-                    <input 
-                        type="email" 
-                        name="email" 
-                        placeholder="Enter your email address" 
-                        required 
-                        class="newsletter-input"
-                    >
-                    <button type="submit" class="btn btn-primary">Subscribe</button>
-                </form>
-            </div>
-        </div>
-    </section>
+    <!-- AUTHOR SECTION -->
+    <div class="author-section">
+        <img src="images/author-photo.jpg" alt="Sado Faraji" class="author-photo">
+        <h2>About the Author</h2>
+        <p style="max-width: 600px; margin: 0 auto; font-size: 1.1rem;">
+            Sado Faraji is a distinguished author and historian whose works span historical biography, 
+            religious critique, and literary fiction. With a focus on African history, Islamic civilization, 
+            and social justice, Faraji's writings challenge conventional narratives and offer fresh 
+            perspectives on power, resistance, and human dignity.
+        </p>
+    </div>
 
-    <!-- Footer -->
-    <footer class="site-footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-info">
-                    <h3>Sado Faraji</h3>
-                    <p>Writer of Power, Memory, and Resistance</p>
-                </div>
-                <div class="footer-links">
-                    <h4>Navigate</h4>
-                    <ul>
-                        <li><a href="books.html">Books</a></li>
-                        <li><a href="essays.html">Essays</a></li>
-                        <li><a href="swahili.html">Kiswahili</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="footer-contact">
-                    <h4>Contact</h4>
-                    <p>For serious correspondence:</p>
-                    <p><a href="mailto:sadofaraji@proton.me">sadofaraji@proton.me</a></p>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 Sado Faraji. All rights reserved.</p>
-            </div>
-        </div>
-    </footer>
+    <!-- FOOTER -->
+    <div class="footer">
+        <p>&copy; 2026 Sado Faraji. All rights reserved.</p>
+        <p>Contact: info@sadofaraji.com</p>
+    </div>
 
-    <script src="script.js"></script>
 </body>
 </html>
