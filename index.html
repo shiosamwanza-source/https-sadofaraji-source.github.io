@@ -5,19 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sado Faraji - Author & Historian</title>
     <style>
-
-        <!-- AUTHOR SECTION -->
-<div class="author-section">
-    <img src="images/author-photo.jpg" alt="Sado Faraji" class="author-photo">
-    <h2>About the Author</h2>
-    <p style="max-width: 600px; margin: 0 auto; font-size: 1.1rem;">
-        Sado Faraji is a distinguished author and historian whose works span historical biography, 
-        religious critique, and literary fiction. With a focus on African history, Islamic civilization, 
-        and social justice, Faraji's writings challenge conventional narratives and offer fresh 
-        perspectives on power, resistance, and human dignity.
-    </p>
-</div>
-        
         * {
             margin: 0;
             padding: 0;
@@ -48,6 +35,39 @@
             font-size: 1.3rem;
             color: #cccccc;
             font-style: italic;
+        }
+
+        /* PURCHASE SECTION STYLES */
+        .purchase-section {
+            text-align: center;
+            padding: 40px 20px;
+            background: rgba(212,175,55,0.1);
+            margin: 20px 0;
+        }
+
+        .purchase-section h2 {
+            font-size: 2rem;
+            color: #d4af37;
+            margin-bottom: 20px;
+        }
+
+        .main-buy-button {
+            display: inline-block;
+            background: linear-gradient(45deg, #d4af37, #f4d03f);
+            color: #1a1a2e;
+            padding: 15px 40px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(212,175,55,0.3);
+        }
+
+        .main-buy-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(212,175,55,0.5);
+            background: linear-gradient(45deg, #f4d03f, #d4af37);
         }
 
         .book-gallery {
@@ -116,6 +136,26 @@
             margin-bottom: 10px;
         }
 
+        /* INDIVIDUAL BUY BUTTON STYLES */
+        .book-buy-button {
+            display: inline-block;
+            background: rgba(212,175,55,0.8);
+            color: #1a1a2e;
+            padding: 8px 20px;
+            text-decoration: none;
+            border-radius: 25px;
+            font-size: 0.9rem;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            margin-top: 10px;
+        }
+
+        .book-buy-button:hover {
+            background: #d4af37;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(212,175,55,0.4);
+        }
+
         .author-section {
             text-align: center;
             padding: 60px 20px;
@@ -148,6 +188,11 @@
                 grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
                 gap: 20px;
             }
+
+            .main-buy-button {
+                padding: 12px 30px;
+                font-size: 1rem;
+            }
         }
     </style>
 </head>
@@ -156,6 +201,15 @@
     <div class="header">
         <h1>SADO FARAJI</h1>
         <p>Author • Historian • Critical Thinker</p>
+    </div>
+
+    <!-- PURCHASE SECTION -->
+    <div class="purchase-section">
+        <h2>📚 Get All Books</h2>
+        <a href="https://books2read.com/ap/xy0Abp/Sado-Faraji" target="_blank" class="main-buy-button">
+            🛒 Available on All Major Platforms
+        </a>
+        <p style="margin-top: 15px; color: #cccccc;">Amazon • Apple Books • Google Play • Kobo & More</p>
     </div>
 
     <!-- BOOK GALLERY -->
@@ -170,6 +224,7 @@
                 <img src="images/Spirit-of-resistance.jpg" alt="Spirit of Resistance">
                 <h3>Spirit of Resistance</h3>
                 <p>The Legend of Mkwawa - The untold story of resistance against colonial oppression in East Africa.</p>
+                <a href="https://books2read.com/ap/xy0Abp/Sado-Faraji" target="_blank" class="book-buy-button">Buy Now</a>
             </div>
 
             <!-- BLIND OBEDIENCE -->
@@ -178,6 +233,7 @@
                 <img src="images/THE-BLIND-OBEDIENCE-2.jpg" alt="The Blind Obedience">
                 <h3>The Blind Obedience</h3>
                 <p>Conscience, Faith, and the Quiet Danger of Obedience Without Question</p>
+                <a href="https://books2read.com/ap/xy0Abp/Sado-Faraji" target="_blank" class="book-buy-button">Buy Now</a>
             </div>
 
             <!-- INDELIBLE ARCHIVE -->
@@ -186,6 +242,7 @@
                 <img src="images/Indelible-archive.jpg" alt="The Indelible Archive">
                 <h3>The Indelible Archive</h3>
                 <p>When the Erased Refuse to Stay Silent - A powerful narrative of memory and resistance.</p>
+                <a href="https://books2read.com/ap/xy0Abp/Sado-Faraji" target="_blank" class="book-buy-button">Buy Now</a>
             </div>
 
             <!-- SHADOWS OF THE DESERT -->
@@ -194,6 +251,7 @@
                 <img src="images/Shadows-of-desert-one.jpg" alt="Shadows of the Desert">
                 <h3>Shadows of the Desert</h3>
                 <p>The Role of Zionism in the Birth of Saudi Arabia - An investigative historical analysis.</p>
+                <a href="https://books2read.com/ap/xy0Abp/Sado-Faraji" target="_blank" class="book-buy-button">Buy Now</a>
             </div>
 
             <!-- CALIPHATE AND FOUNDATIONS -->
@@ -202,6 +260,7 @@
                 <img src="images/CALIPHATE-AND-FOUNDATIONS-OF-DISPUTE.jpg" alt="Caliphate and the Foundations of Dispute">
                 <h3>Caliphate and the Foundations of Dispute</h3>
                 <p>The Role of Umar Ibn al-Khattab in Shaping the Political Legacy of the Prophet</p>
+                <a href="https://books2read.com/ap/xy0Abp/Sado-Faraji" target="_blank" class="book-buy-button">Buy Now</a>
             </div>
 
             <!-- MTEGO WA KAFARA -->
@@ -210,6 +269,7 @@
                 <img src="images/MTEGO-WA-KAFARA.jpg" alt="Mtego wa Kafara">
                 <h3>Mtego wa Kafara</h3>
                 <p>Jinsi Vijana Walivyogeuzwa Silaha Dhidi ya Jamhuri - A compelling work of Swahili literature.</p>
+                <a href="https://books2read.com/ap/xy0Abp/Sado-Faraji" target="_blank" class="book-buy-button">Buy Now</a>
             </div>
 
             <!-- DIGITAL INSURRECTION -->
@@ -218,6 +278,7 @@
                 <img src="images/Digital-insurrection-the-collapse-of-truth.jpg" alt="Digital Insurrection">
                 <h3>Digital Insurrection</h3>
                 <p>The Collapse of Truth - Part II: How Information Warfare, AI Manipulation, and Psychological Control Are Reshaping Humanity</p>
+                <a href="https://books2read.com/ap/xy0Abp/Sado-Faraji" target="_blank" class="book-buy-button">Buy Now</a>
             </div>
 
             <!-- THE 7 LAWS -->
@@ -226,6 +287,7 @@
                 <img src="images/THE-7-LAWS-OF-CULTURAL-SHADOW-POWER.jpg" alt="The 7 Laws of Cultural Shadow Power">
                 <h3>The 7 Laws of Cultural Shadow Power</h3>
                 <p>How to Read, Navigate, and Leverage the Invisible Dynamics That Determine Who Wins in Global Business</p>
+                <a href="https://books2read.com/ap/xy0Abp/Sado-Faraji" target="_blank" class="book-buy-button">Buy Now</a>
             </div>
 
             <!-- BRIDGE OF HOPE -->
@@ -234,6 +296,7 @@
                 <img src="images/bridge-of-hope.jpg" alt="The Bridge of Hope and Sorrow">
                 <h3>The Bridge of Hope and Sorrow</h3>
                 <p>A moving tale exploring the journey between hope and heartbreak.</p>
+                <a href="https://books2read.com/ap/xy0Abp/Sado-Faraji" target="_blank" class="book-buy-button">Buy Now</a>
             </div>
 
         </div>
@@ -255,6 +318,7 @@
     <div class="footer">
         <p>&copy; 2026 Sado Faraji. All rights reserved.</p>
         <p>Contact: info@sadofaraji.com</p>
+        <p><a href="https://books2read.com/ap/xy0Abp/Sado-Faraji" target="_blank" style="color: #d4af37;">📚 Shop All Books</a></p>
     </div>
 
 </body>
